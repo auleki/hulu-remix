@@ -24,7 +24,7 @@ export default function Header() {
         </div>
         <Image 
             onClick={() => router.push('/')}
-            className="object-contain cursor-pointer" 
+            className="object-contain cursor-pointer transition hover:opacity-80" 
             src="https://links.papareact.com/ua6" 
             height={100} 
             width={200}
